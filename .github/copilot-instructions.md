@@ -1,14 +1,12 @@
 ---
 applyTo: '**'
 ---
-## Copilot Instructions
-
 ### Build, test, lint
 - Dev server: `npm run dev`
 - Build: `npm run build`
 - Preview prod build: `npm run preview`
 - Lint: `npm run lint`
-- Tests: no test runner configured in `package.json` (no single-test command available)
+- Tests: No test runner configured in `package.json`. Consider adding a test framework like Jest or Vitest for unit testing.
 
 ### Architecture
 - Vite + React app. Entry `src/main.jsx` mounts `<App />` into `#root`, and imports `rsuite/dist/rsuite-no-reset.min.css` plus `src/index.css`.
@@ -21,3 +19,8 @@ applyTo: '**'
 - Assets live in `src/assets`, reusable UI in `src/components`.
 - RSuite styles: keep `rsuite-no-reset` imported in `main.jsx`; avoid overriding RSuite styles directly unless required.
 - ESLint uses flat config (`eslint.config.js`) with React Hooks + React Refresh rules; `no-unused-vars` ignores capitalized vars (`^[A-Z_]`).
+
+### Recommendations
+- **Testing**: Add a testing framework to ensure code quality.
+- **Documentation**: Expand the `README.md` to include setup instructions and contribution guidelines.
+- **Error Handling**: Implement error boundaries in React to handle runtime errors gracefully.

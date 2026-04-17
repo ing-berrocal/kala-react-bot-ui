@@ -1,0 +1,18 @@
+{
+    "sourceFile": "sdd/mission.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1776370292791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1776370292790,
+            "name": "Commit-0",
+            "content": "# Kala Bot Response\r\n\r\n## Overview\r\n\r\n**Kala Bot Response** is a web application that consumes a API for question and, verrifi and approve response comments fron facebook, instagram posts"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/MainMenu.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1776347969829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1776347969829,
+            "name": "Commit-0",
+            "content": "import { Navbar, Nav } from 'rsuite'\r\n\r\nconst MainMenu = () => {\r\n  return (\r\n    <Navbar appearance=\"inverse\">\r\n      <Nav>\r\n        <Nav.Item eventKey=\"home\">home</Nav.Item>\r\n        <Nav.Item eventKey=\"config\">config</Nav.Item>\r\n        <Nav.Item eventKey=\"account\">account</Nav.Item>\r\n      </Nav>\r\n    </Navbar>\r\n  )\r\n}\r\n\r\nexport default MainMenu\r\n"
+        }
+    ]
+}
